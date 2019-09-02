@@ -1,4 +1,4 @@
-class ComecarJogoController{
+class JogoController{
 
     todasRespostas = [{
         pergunta: 'Qual a capital do Canadá?',
@@ -63,7 +63,6 @@ class ComecarJogoController{
             this.montaPergunta();
         }else{
             this.mostraPontos();
-            console.log(this.pontos);
         }   
          
         formJogo.reset();
